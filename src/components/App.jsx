@@ -181,7 +181,7 @@ const handleNewCountry=(ev)=>{
   value={newCountry.continents}
   onChange={handleNewCountry}/>
 <button onClick={handleClick}>Add Country</button>
-
+<p>{error}</p>
 
 
 </form>
