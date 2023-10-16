@@ -97,8 +97,8 @@ const handleNewCountry=(ev)=>{
     <li>
       <span>{eachCountry.flag}</span>
       <p>{eachCountry.name.official}</p>
-      <span>{eachCountry.capital}</span>
-      <span>{eachCountry.continents}</span>
+      <span>{eachCountry.capital[0]}</span>
+      <p>{eachCountry.continents[0]}</p>
     </li>
     </ul>
     ))
